@@ -1,2 +1,2 @@
 # pizza_app_server
-Pizza app Deno server
+Pizza app Node server
