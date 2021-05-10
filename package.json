@@ -1,0 +1,31 @@
+{
+  "name": "pizza_app_server",
+  "version": "1.0.0",
+  "description": "Pizza app Node server",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edkaresli/pizza_app_server.git"
+  },
+  "keywords": [],
+  "author": "Eduard Karesli ed.karesli@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edkaresli/pizza_app_server/issues"
+  },
+  "homepage": "https://github.com/edkaresli/pizza_app_server#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "typeorm": "^0.2.31"
+  }
+}
